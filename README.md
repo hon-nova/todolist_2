@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Preview
+![todolist](public/assets/images/todolist.png)
 
-Currently, two official plugins are available:
+![todolist2](public/assets/images/todolist2.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Main functionality
+- The app is created using the Vite@latest template for React.
+- Its main functionality is to pass data from a child component `<UserInputForm />` to a parent component `<UserDashboard/>` via a callback.
+- User stories: ADD, UPDATE & DELETE task(s), as well as MARK the task when it's done.
