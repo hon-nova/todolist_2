@@ -1,0 +1,65 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   // background-color: rgb(246, 246, 224);
+   font-size: 25px
+}
+// components2
+.main-container {
+   display: grid;
+   grid-template-columns: 1fr 12fr 1fr;
+   justify-content: center;
+   align-items: center;
+}
+.left,.right{
+   // background-color: yellow;
+}
+.center {
+   background-color: rgb(232, 243, 195);
+   border: 5px solid #d0d0d5;
+   // margin: auto;
+   text-align: center;
+   margin-top: 30px;
+}
+#input-task{
+   height: 50px;
+   width: 50%;
+   margin:5px;
+   color: green;
+   font-weight: bold;
+   font-size: 30px;
+}
+#btn-task{
+   height: 45px;
+   border-radius: 10px;
+   width: 100px;
+   font-weight: bold;
+   font-size: 20px;
+}
+#li-task{
+   display: flex;
+   width: 600px;
+   margin: 10px auto;
+   justify-content: space-between;
+   border-bottom: 3px solid black;
+  ;
+}
+ul {
+   list-style: none;
+}
+#btn-delete, #btn-edit{
+   cursor: pointer;
+   margin: 0 5px;
+   border-radius: 5px;
+   // width: 100px;
+}
+#btn-delete:hover{
+   background-color: red;
+}
+#btn-edit:hover{
+   background-color:green;
+}
+.task-done{
+   text-decoration: line-through;
+}
